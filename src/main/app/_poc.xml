@@ -7,6 +7,7 @@
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
     <flow name="_pocFlow">
         <logger level="INFO" doc:name="Logger"/>
+        <logger level="INFO" doc:name="Logger"/>
         <catch-exception-strategy doc:name="Catch Exception Strategy">
             <logger level="INFO" doc:name="Logger"/>
         </catch-exception-strategy>
